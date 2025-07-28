@@ -46,10 +46,7 @@ jobs:
         uses: actions/setup-node@v4
         with: 
           node-version: '20.19.3'
-
-      - name: List files for debugging
-        run: ls -lR src-app/controllers
-
+          
       - name: Upload flaws artifact
         uses: actions/download-artifact@v4
         with:
