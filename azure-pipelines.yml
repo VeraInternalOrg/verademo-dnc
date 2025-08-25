@@ -11,6 +11,9 @@ pr:
 pool:
   vmImage: 'ubuntu-latest'
 
+
+lockBehavior: runLatest
+
 stages:
   - stage: Build
     jobs:
